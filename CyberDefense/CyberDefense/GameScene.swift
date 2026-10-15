@@ -435,7 +435,7 @@ class GameScene: SKScene {
     func generateWaveComposition(level: Int) -> [EnemyType] {
         var composition: [EnemyType] = []
         // Significantly more mobs per level - longer waves
-        let baseCount = 8 + (level * 4)
+        let baseCount = 6 + (level * 3)
 
         switch level {
         case 1:
