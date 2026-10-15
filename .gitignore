@@ -1,3 +1,10 @@
 *.zip
 *.mp4
 models/
+mlx.metallib
+libtorch_cpu.dylib
+models/
+
+airllm/
+.venv/
+venv/
